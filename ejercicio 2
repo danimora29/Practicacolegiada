@@ -1,0 +1,20 @@
+#precio del repuesto y el tipo, por lo cual debe usar la instrucción de lectura
+#para obtener ambos datos. Para leer el tipo es recomendable utilizar opciones,
+#por ejemplo, 1. Repuestos para el motor, 2.
+
+tipo=int(input("Bienvendid@, ingrese el tipo de repuesto \n TIPO\n\t1- Para motor\n\t2- No Accesorios\n\t3- Para limpieza del auto \n\t4- Para frenos\n"))
+d1=0.85
+d2=0.9
+d3=0.95
+d4=0.97
+
+precio=float(input("Ingrese precio del repuesto"))
+
+if tipo== 1:
+    print("Se aplica 15% de descuento, deberá pagar =>", precio*d1)
+elif tipo== 2:
+    print("Se aplica 10% de descuento, deberá pagar =>", precio*d2)
+elif tipo== 3:
+    print("Se aplica 5% de descuento, deberá pagar =>", precio*d3)
+elif tipo== 4:
+    print("Se aplica 3% de descuento, deberá pagar =>", precio*d4)
