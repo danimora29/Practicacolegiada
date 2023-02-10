@@ -1,0 +1,14 @@
+#DIETA POR DÍA A LA SEMANA
+dieta= int(input("Bienvendid@, para conocer su plan introduzca el día de la semana \n Días\n\t1- Lunes\n\t2- No Martes\n\t3- Miércoles \n\t4- Jueves\n"))
+
+if dieta == 1:
+    print("El plan correspondiente para el día Lunes sería avena y frutas tropicales")
+elif dieta == 2:
+    print("El plan correspondiente para el día Martes sería yogurt y frutos secos")
+elif dieta == 3:
+    print("El plan correspondiente para el día Miércoles sería café y galletas saladas")
+elif dieta == 4:
+    prin("El plan correspondiente para el día Jueves barra energética y jugo de naranja")
+    
+else:
+    print("opción errónea")
